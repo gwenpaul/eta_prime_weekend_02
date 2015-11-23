@@ -1,0 +1,28 @@
+body {
+    padding-top: 20px;
+    background-color:
+}
+
+h1 {
+    font-family: Georgia, serif;
+    padding: 15px 0 15px 0;
+}
+
+.next {
+    display: block;
+    float: right;
+}
+
+.previous {
+    display: block;
+    float: left;
+    margin-right: 20px;
+
+
+.movie {
+
+  width: 900px;
+  height: 100px;
+  margin-top: 100px;
+
+}

@@ -14,28 +14,20 @@
     </header>
     <main>
 
-    <script id="back" type="text/x-handlebars-template">
-
-
-    </script>
-
-</aside>
 <section class="main">
 <script id="eta-students" type="text/x-handlebars-template">
     <div class="student">
-
-
             <p>{{firstName}}</p>
             <p>{{lastName}}</p>
-
-            <div class="movie">
-            {{#each favoriteMovies}}
-                <p>{{movieName}}<p>
-                <p>{{releaseYear}}</p>
-            </div>
-            {{/each}}
-
     </div>
+
+    <div class="movie">
+            {{#each favoriteMovies}}
+            <p>{{movieName}}<p>
+            <p>{{releaseYear}}</p>
+    </div>
+    {{/each}}
+
 </script>
 </section>
 
@@ -46,9 +38,13 @@
 </aside>
 </main>
 <section></section>
+<div class="previous">
 <button class ='back'>PREVIOUS</button>
+</div>
+<div class="next">
 <footer><button class ='foward'>NEXT</button>
 </footer>
+</div>
 </body>
 
 </html>
